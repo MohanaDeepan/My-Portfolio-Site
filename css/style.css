@@ -54,7 +54,6 @@ video::-webkit-media-controls-panel {
 /*Nav Bar starts here*/
 
 nav {
-  display: none;
   top: 0;
   left: 0;
   width: 100vw;

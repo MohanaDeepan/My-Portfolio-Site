@@ -272,7 +272,7 @@ section .aboutme .Profilename {
   display: grid;
   grid-template-columns: repeat(2, 0fr);
   width: 70vw;
-  height: 90vh;
+  height: 96vh;
   flex-wrap: wrap;
   overflow-y: scroll;
   grid-gap: 4rem 9rem;
