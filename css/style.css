@@ -149,7 +149,7 @@ section {
 }
 
 .hero {
-  width: 100vw;
+  width: 90vw;
   height: 90vh;
   top: 10vh;
   margin: auto;
@@ -229,6 +229,7 @@ h5 span {
 .animation {
   height: 90vh;
   width: 20vw;
+  left: 2vw;
   position: relative;
   display: flex;
   flex: auto;
