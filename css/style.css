@@ -54,6 +54,7 @@ video::-webkit-media-controls-panel {
 /*Nav Bar starts here*/
 
 nav {
+  display: none;
   top: 0;
   left: 0;
   width: 100vw;
@@ -607,20 +608,6 @@ input {
   background-color: var(--orangeBG);
   bottom: -10px;
   left: 50%;
-  transform: translateX(-50%);
-  animation: animatea 3s linear infinite;
-}
-
-@keyframes animatea {
-  0% {
-    width: 75px;
-  }
-  50% {
-    width: 140px;
-  }
-  100% {
-    width: 75px;
-  }
 }
 
 .top-content {
