@@ -185,7 +185,7 @@ section {
   display: block;
   height: 400px;
   width: 700px;
-  position: absolute;
+  position: relative;
   backdrop-filter: blur(25px);
   -webkit-backdrop-filter: blur(25px);
   background-color: rgba(255, 255, 255, 0.5);
