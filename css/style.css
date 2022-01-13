@@ -23,7 +23,7 @@ html {
   --header3: calc(1.3rem + 1vw);
   --header4: calc(5rem + 1vw);
   --button: calc(0.7rem + 1vw);
-  --contents: calc(0.4rem + 1vw);
+  --contents: calc(0.6rem + 1vw);
   --mediumleveltext: calc(1.7rem + 1vw);
   --black-text: #000000;
   --green-text: #00c12b;
@@ -260,6 +260,7 @@ h5 span {
   position: relative;
   height: 90vh;
   width: 100vw;
+  margin: 0 auto;
   display: flex;
   z-index: 0;
 }
@@ -539,6 +540,7 @@ section .aboutme .Profilename {
 }
 
 .expcontent2 {
+  padding-top: 5vh;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -648,7 +650,7 @@ label {
   margin: 0 20px;
   line-height: 60px;
   white-space: nowrap;
-  font-size: calc(0.1rem + 1vw);
+  font-size: calc(0.3rem + 1vw);
   color: gray;
   cursor: pointer;
   transition: color 0.5s;
@@ -895,5 +897,11 @@ label:hover {
 @media only screen and (max-width: 700px) {
   .modal-content {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  label {
+    margin: 0 17px;
   }
 }

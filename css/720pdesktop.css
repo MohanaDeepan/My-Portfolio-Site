@@ -1,20 +1,95 @@
-.introcontent::after {
-  height: 53vh;
-  width: 48vw;
+@media only screen and (min-width: 1366px) {
+  .introcontent::after {
+    height: 53vh;
+    width: 48vw;
+  }
+
+  .animation {
+    left: 8vh;
+  }
+
+  .skill2 {
+    left: 92.5vw;
+  }
+
+  .SamPro {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .contactmecontent {
+    top: 17vh;
+  }
+
+  label {
+    margin: 0 18px;
+  }
 }
 
-.animation {
-  left: 8vh;
+@media only screen and (max-width: 1240px) {
+  nav .container {
+    width: 90vh;
+  }
+
+  nav .container ul li a {
+    padding: 1vh 3.5vw;
+  }
+
+  .hero {
+    width: 100vw;
+  }
+
+  .rightsection {
+    width: 70vw;
+  }
 }
 
-.skill2 {
-  left: 92.5vw;
+.top-content h2 {
+  padding: 0 2rem;
 }
 
 .SamPro {
   grid-template-columns: repeat(4, 1fr);
 }
 
+label {
+  margin: 0 15px;
+}
+.contactmecontent h1 {
+  font-size: calc(3rem + 1vw);
+}
+.contactmecontent span {
+  margin-left: 2vw;
+}
+
+.email {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  font-size: calc(1.5rem + 1vw);
+}
+
+.phone {
+  font-size: calc(1.5rem + 1vw);
+}
+
+.website {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  font-size: calc(1.5rem + 1vw);
+}
+
 .contactmecontent {
-  top: 17vh;
+  padding-left: 2rem;
+  grid-gap: 2rem;
+}
+
+.social-links {
+  position: relative;
+  align-items: flex-end;
+  margin: auto;
+  width: 85vw;
+  height: 20vh;
+  display: flex;
+  grid-gap: 3rem;
 }
