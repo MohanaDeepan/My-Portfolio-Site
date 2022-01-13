@@ -41,7 +41,7 @@ nav {
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   background-color: rgba(255, 255, 255, 0);
-  z-index: 1;
+  z-index: 10;
 }
 
 nav .container {
@@ -210,6 +210,7 @@ nav .container ul li.active a {
 .introcontent h2 {
   font-weight: 400;
   font-size: var(--header2);
+  text-align: center;
 }
 .portfolio {
   font-weight: 500;

@@ -1,0 +1,118 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+  --header1: calc(3rem + 1vw);
+  --header2: calc(1.8rem + 1vw);
+  --header3: calc(2rem + 1vw);
+  --header4: calc(5rem + 1vw);
+  --button: calc(0.7rem + 1vw);
+  --contents: calc(1.5rem + 1vw);
+  --mediumleveltext: calc(2.8rem + 1vw);
+  --black-text: #000000;
+  --green-text: #00c12b;
+  --crimson-text: #dc143c;
+  --orange-text: #f65b04;
+  --grey-text: #575757;
+  --white-text: #ffffff;
+  --orangeBG: #f65b04;
+  --orangelightBG: #f59761;
+  --greenBG: #00c12b;
+  --greenlightBG: #80f199;
+  scroll-snap-type: y mandatory;
+  overflow-x: hidden;
+}
+
+nav .container {
+  right: -100%;
+  width: 100%;
+  font-size: 2.2rem;
+  line-height: 6rem;
+}
+
+.Homepage a {
+  font-size: calc(2rem + 1vw);
+}
+
+.hamburger {
+  height: 1vh;
+  width: 20vw;
+  margin: 2vh 80vw;
+}
+
+.hamburger::before {
+  height: 50px;
+  width: 50px;
+  margin: -0.3vh 3.7vw;
+}
+
+.bar {
+  display: block;
+  width: 35px;
+  height: 4px;
+  margin: 8px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(12px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-12px) rotate(-45deg);
+}
+
+.introcontent::after {
+  content: "";
+  border-radius: 3rem;
+  display: flex;
+  height: 35vh;
+  width: 82vw;
+  position: absolute;
+  opacity: 0.7;
+}
+
+.introcontent h2 {
+  align-items: center;
+  font-weight: 400;
+  font-size: var(--header2);
+}
+
+.portfolio {
+  font-weight: 500;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.introcontent h3 {
+  margin: 1vh 3vw;
+  font-weight: 400;
+  font-size: var(--header3);
+}
+
+.introcontent h4 {
+  margin: -0.5vh 8vw;
+  font-weight: 550;
+  font-size: var(--header4);
+}
+
+.animation {
+  height: 50vh;
+  width: 90vw;
+  left: 3vw;
+  margin: 10vh 0 0 0;
+}
+
+.man {
+  display: flex;
+  width: 90vw;
+  height: 90vh;
+  object-fit: contain;
+  position: relative;
+}
