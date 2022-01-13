@@ -108,7 +108,7 @@ nav .container ul li.active {
   border-radius: 5rem;
   backdrop-filter: blur(25px);
   -webkit-backdrop-filter: blur(25px);
-  background: rgba(253, 253, 253, 0.1);
+  background: rgba(253, 253, 253, 0.8);
   transition: 0.3s ease-in background-color;
   -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
     5px 5px 15px 5px rgba(0, 0, 0, 0);
@@ -137,8 +137,8 @@ section {
   width: 100vw;
   height: 100vh;
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.4),
-      rgba(255, 255, 255, 0.4)
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
     ),
     url(/pics/pexels-toa-heftiba-şinca-1194420.jpg);
   opacity: 0.5;
@@ -159,8 +159,7 @@ section {
 }
 
 .hero-container {
-  min-width: 95vw;
-  margin: auto;
+  width: 95vw;
   height: 90vh;
   display: flex;
   position: relative;
@@ -180,15 +179,15 @@ section {
 
 .introcontent::after {
   content: "";
-  right: 7vw;
+  margin: -4vw;
   border-radius: 3rem;
-  display: block;
-  height: 400px;
-  width: 700px;
-  position: relative;
+  display: flex;
+  height: 50vh;
+  width: 45vw;
+  position: absolute;
   backdrop-filter: blur(25px);
   -webkit-backdrop-filter: blur(25px);
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.5);
   z-index: -2;
   overflow: hidden;
@@ -206,14 +205,13 @@ section {
 }
 
 .introcontent h3 {
-  padding-top: 1.5rem;
-  padding-left: 7vh;
+  margin: 1.5vh 3vw;
   font-weight: 400;
   font-size: var(--header3);
 }
 
 .introcontent h4 {
-  padding-left: 17vh;
+  margin: 1vh 8vw;
   font-weight: 550;
   font-size: var(--header4);
 }
@@ -221,7 +219,7 @@ section {
 .introcontent h5 {
   font-weight: 550;
   font-size: var(--header4);
-  padding-left: 35vh;
+  margin: 0 16vw;
 }
 
 h5 span {
@@ -624,7 +622,7 @@ input {
 
 .top-content {
   background-color: rgb(243, 243, 243);
-  width: 95%;
+  width: 100%;
   margin: 0 auto 20px auto;
   height: 60px;
   display: flex;

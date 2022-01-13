@@ -1,0 +1,20 @@
+.introcontent::after {
+  height: 53vh;
+  width: 48vw;
+}
+
+.animation {
+  left: 8vh;
+}
+
+.skill2 {
+  left: 92.5vw;
+}
+
+.SamPro {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.contactmecontent {
+  top: 17vh;
+}
