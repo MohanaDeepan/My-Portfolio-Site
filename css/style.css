@@ -250,7 +250,7 @@ h5 span {
   width: 100vw;
   height: 100vh;
   display: flex;
-  background-image: url(/Portfolio/pics/pexels-lukas-669615.jpg);
+  background-image: url(/pics/pexels-lukas-669615.jpg);
   background-blend-mode: soft-light, screen;
   background-size: cover;
   opacity: 0.2;
@@ -280,7 +280,7 @@ h5 span {
 }
 
 .profilepic {
-  background-image: url(/Portfolio/pics/Profile\ photo.svg);
+  background-image: url(/pics/Profile\ photo.svg);
   background-size: cover;
   background-position: center;
   background-color: white;
@@ -374,7 +374,7 @@ section .aboutme .Profilename {
   width: 100vw;
   height: 100vh;
   margin: auto;
-  background-image: url(/Portfolio/pics/pexels-david-bartus-963278.jpg);
+  background-image: url(/pics/pexels-david-bartus-963278.jpg);
   background-position: center;
   background-size: cover;
   opacity: 0.5;
@@ -487,7 +487,7 @@ section .aboutme .Profilename {
 
 .imgcontainer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(/Portfolio/pics/pexels-s-migaj-747964.jpg);
+    url(/pics/pexels-s-migaj-747964.jpg);
   opacity: 0.8;
   background-position: center;
   background-size: cover;
@@ -567,7 +567,7 @@ input {
 
 .BGimage {
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 1)),
-    url(/Portfolio/pics/pexels-james-wheeler-417074.jpg);
+    url(/pics/pexels-james-wheeler-417074.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -827,7 +827,7 @@ label:hover {
 }
 
 #Contactme {
-  background-image: url(/Portfolio/pics/pexels-alex-andrews-3045245.jpg);
+  background-image: url(/pics/pexels-alex-andrews-3045245.jpg);
   background-size: cover;
   background-position: center;
   position: absolute;
