@@ -54,7 +54,7 @@ nav .container {
   right: -100%;
   width: 50%;
   margin: auto;
-  height: auto;
+  height: 100%;
   font-weight: 400;
   color: var(--grey-text);
   font-size: 3rem;
