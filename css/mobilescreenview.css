@@ -226,6 +226,7 @@ nav .container {
 
 .rightsection {
   top: 0vh;
+  margin: auto;
   height: 60%;
   width: 100vw;
   justify-content: center;
