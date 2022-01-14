@@ -113,8 +113,8 @@ nav .container {
   content: "";
   border-radius: 3rem;
   display: inline-block;
-  height: 230px;
-  width: 280px;
+  height: 100%;
+  width: 100%;
   position: absolute;
   opacity: 0.7;
 }
