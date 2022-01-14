@@ -229,6 +229,7 @@ nav .container {
   height: 60%;
   width: 100vw;
   justify-content: center;
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
   position: relative;
