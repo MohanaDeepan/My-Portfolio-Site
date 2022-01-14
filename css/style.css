@@ -308,10 +308,6 @@ h5 span {
   align-items: center;
 }
 
-section .aboutme .Profilename {
-  justify-content: space-around;
-}
-
 .Profilename h1 {
   color: var(--crimson-text);
   font-weight: 500;
