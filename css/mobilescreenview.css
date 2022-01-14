@@ -161,6 +161,7 @@ nav .container {
 .man {
   display: flex;
   margin: auto;
+  left: 2.5%;
   width: 100%;
   height: auto;
   object-fit: contain;
