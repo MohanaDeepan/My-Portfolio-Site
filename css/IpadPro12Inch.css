@@ -254,7 +254,7 @@ h5 span {
   display: flex;
   width: 65vw;
   height: auto;
-  object-fit: contain;
+  object-fit: unset;
   position: relative;
 }
 
