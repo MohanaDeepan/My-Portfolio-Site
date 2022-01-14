@@ -699,6 +699,7 @@ label:active {
   align-items: center;
   height: auto;
   width: 80vw;
+  touch-action: pinch-zoom;
 }
 .modal-content {
   animation-name: zoom;
