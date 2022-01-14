@@ -299,6 +299,7 @@ nav .container {
   background-size: cover;
   opacity: 0.5;
   position: absolute;
+  z-index: -1;
 }
 
 .imgcontain {
