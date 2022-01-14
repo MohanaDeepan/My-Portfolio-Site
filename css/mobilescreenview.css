@@ -533,25 +533,27 @@ label:active {
 /* Full screen Image viewer starts here */
 
 #image-viewer {
-  display: none;
+  display: flex;
   position: fixed;
-  z-index: 10;
   left: 0;
   top: 0;
   width: 100vw;
   height: 100vh;
-  margin: 0 auto;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
   background-color: rgb(0, 0, 0);
   background-color: rgba(94, 94, 94, 0.9);
+  z-index: 10;
 }
 .modal-content {
-  margin: 10vh auto;
-  display: block;
-  justify-content: center;
-  align-items: center;
+  margin: 15vh auto;
+  display: flex;
   height: auto;
-  width: 80vw;
+  width: 95%;
+  align-items: center;
+  justify-content: center;
 }
 .modal-content {
   animation-name: zoom;
@@ -560,10 +562,10 @@ label:active {
 
 #image-viewer .close {
   position: absolute;
-  top: 2vh;
-  right: 35px;
+  top: 1vh;
+  right: 15px;
   color: #f1f1f1;
-  font-size: 65px;
+  font-size: 50px;
   font-weight: bold;
   transition: 0.3s;
   cursor: pointer;
