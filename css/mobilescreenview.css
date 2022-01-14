@@ -168,7 +168,7 @@ section .aboutme .Profilename {
 }
 
 .Profilename h2 {
-  padding-top: 1rem;
+  padding-top: unset;
   font-size: var(--header3);
   font-weight: 400;
   align-items: center;
