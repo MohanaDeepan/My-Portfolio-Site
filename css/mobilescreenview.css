@@ -226,7 +226,7 @@ nav .container {
 
 .rightsection {
   top: 0vh;
-  height: 65vh;
+  height: 60%;
   width: 100vw;
   justify-content: center;
   display: flex;
@@ -237,12 +237,12 @@ nav .container {
 
 .paracontainer {
   display: flex;
-  width: 85vw;
+  width: 90%;
   height: 100%;
   margin: 0 auto;
-  justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
+  line-height: 2.2rem;
 }
 
 .paracontainer::before {
@@ -251,7 +251,6 @@ nav .container {
   bottom: 0;
   right: 0;
   left: 0;
-  margin: 0 auto;
   background: #09203f;
   position: absolute;
   width: 50vw;
@@ -268,14 +267,19 @@ nav .container {
   align-items: center;
   text-align: center;
   display: flex;
+  height: 10%;
+  width: 100%;
 }
 
 .paracontainer p {
+  height: 90%;
+  width: 100%;
   color: #046e00;
   letter-spacing: 0.1rem;
   text-align: justify;
   padding-top: unset;
   line-height: unset;
+  font-size: var(--contents);
 }
 
 .paracontainer span {
