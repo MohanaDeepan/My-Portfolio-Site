@@ -572,14 +572,14 @@ label:active {
   position: relative;
   width: 100vw;
   height: 100vh;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  justify-content: unset;
+  flex-direction: unset;
+  align-items: unset;
 }
 
 .contactmecontent {
   width: 95vw;
-  margin: auto;
+  margin: 40vh auto;
   height: 50%;
   color: var(--white-text);
   position: relative;
