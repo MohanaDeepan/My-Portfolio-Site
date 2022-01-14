@@ -41,8 +41,8 @@ nav .container {
 }
 
 .hamburger::before {
-  height: 40px;
-  width: 40px;
+  height: 41.5px;
+  width: 41.5px;
   margin: -0.5vh 4.5vw;
 }
 
