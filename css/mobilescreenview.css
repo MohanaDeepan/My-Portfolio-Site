@@ -189,7 +189,7 @@ section .aboutme .Profilename {
 .paracontainer {
   display: flex;
   width: 85vw;
-  height: 50%;
+  height: 100%;
   margin: 0 auto;
   justify-content: center;
   flex-wrap: wrap;
