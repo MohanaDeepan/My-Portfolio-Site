@@ -160,7 +160,7 @@ nav .container ul li.active a {
 .hero {
   width: 100vw;
   height: 90vh;
-  top: 0%;
+  top: 0;
   margin: auto;
   display: flex;
   position: relative;
