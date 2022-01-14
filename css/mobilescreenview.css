@@ -3,9 +3,9 @@ html {
   font-family: "Poppins", sans-serif;
   font-size: 62.5%;
   --header1: calc(3rem + 1vw);
-  --header2: calc(1.8rem + 1vw);
-  --header3: calc(2rem + 1vw);
-  --header4: calc(5rem + 1vw);
+  --header2: calc(1.5rem + 1vw);
+  --header3: calc(1.5rem + 1vw);
+  --header4: calc(3.5rem + 1vw);
   --button: calc(0.7rem + 1vw);
   --contents: calc(1.5rem + 1vw);
   --mediumleveltext: calc(2.8rem + 1vw);
@@ -26,8 +26,8 @@ html {
 nav .container {
   right: -100%;
   width: 100%;
-  font-size: 2.2rem;
-  line-height: 6rem;
+  font-size: 2rem;
+  line-height: 4.5rem;
 }
 
 .Homepage a {
@@ -41,16 +41,16 @@ nav .container {
 }
 
 .hamburger::before {
-  height: 50px;
-  width: 50px;
-  margin: -0.3vh 3.7vw;
+  height: 40px;
+  width: 40px;
+  margin: -0.5vh 4.5vw;
 }
 
 .bar {
   display: block;
-  width: 35px;
+  width: 25px;
   height: 4px;
-  margin: 8px auto;
+  margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #101010;
@@ -61,19 +61,19 @@ nav .container {
 }
 
 .hamburger.active .bar:nth-child(1) {
-  transform: translateY(12px) rotate(45deg);
+  transform: translateY(10px) rotate(45deg);
 }
 
 .hamburger.active .bar:nth-child(3) {
-  transform: translateY(-12px) rotate(-45deg);
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 .introcontent::after {
   content: "";
   border-radius: 3rem;
   display: flex;
-  height: 320px;
-  width: 350px;
+  height: 230px;
+  width: 280px;
   position: absolute;
   opacity: 0.7;
 }
@@ -87,7 +87,7 @@ nav .container {
 .portfolio {
   font-weight: 500;
   align-items: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .introcontent h3 {
@@ -103,16 +103,16 @@ nav .container {
 }
 
 .animation {
-  height: 50vh;
-  width: 90vw;
+  height: 100%;
+  width: 100%;
   left: 3vw;
   margin: 10vh 0 0 0;
 }
 
 .man {
   display: flex;
-  width: 90vw;
-  height: 90vh;
+  width: 90%;
+  height: auto;
   object-fit: contain;
   position: relative;
 }
