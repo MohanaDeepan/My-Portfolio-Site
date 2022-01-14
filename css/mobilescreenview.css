@@ -38,6 +38,7 @@ nav .container {
   font-size: 2rem;
   line-height: 4.5rem;
   overflow: hidden;
+  touch-action: none;
 }
 
 nav .container.active {
