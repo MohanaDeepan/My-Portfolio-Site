@@ -154,15 +154,15 @@ nav .container {
   width: 100%;
   display: flex;
   margin: auto;
-  object-fit: contain;
+  object-fit: unset;
   position: relative;
 }
 
 .man {
   display: flex;
   margin: auto;
-  width: 350px;
-  height: 350px;
+  width: 100%;
+  height: auto;
   object-fit: contain;
   position: relative;
 }
