@@ -306,7 +306,7 @@ nav .container {
   top: 0vh;
   height: 90%;
   width: 100%;
-  margin: auto;
+  margin: 8.5vh auto;
   align-items: center;
   justify-content: center;
   position: relative;
@@ -314,16 +314,16 @@ nav .container {
 
 .boxflex {
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 25px;
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, 0fr);
-  width: 70vw;
-  height: 96vh;
+  width: 90%;
+  height: 100%;
   flex-wrap: wrap;
   overflow-y: scroll;
-  grid-gap: 4rem 9rem;
+  grid-gap: 0rem 1.5rem;
   backdrop-filter: blur(25px);
   --webkit-backdrop-filter: blur(25px);
 }
@@ -349,53 +349,23 @@ nav .container {
   -webkit-box-shadow: 0px 0px 33px -8px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 33px -8px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 33px -8px rgba(0, 0, 0, 0.75);
-  height: 20vh;
+  height: 130px;
   margin: auto;
   width: auto;
 }
 
 .skill1 {
-  height: 80vh;
-  width: 5vw;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  transform: none;
-  position: absolute;
-  right: 92vw;
-  z-index: 5;
+  display: none;
 }
 
 .skill1 img {
-  position: relative;
-  height: 40vh;
-  width: auto;
-  bottom: 10vh;
-  background: none;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  backdrop-filter: none;
+  display: none;
 }
 
 .skill2 {
-  height: 80vh;
-  width: 5vw;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  transform: none;
-  position: absolute;
-  left: 92vw;
-  z-index: 5;
+  display: none;
 }
 
 .skill2 img {
-  position: absolute;
-  height: 40vh;
-  background: none;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  backdrop-filter: none;
+  display: none;
 }
