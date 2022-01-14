@@ -445,3 +445,215 @@ nav .container.active {
   font-weight: 400;
   padding-right: 0rem;
 }
+
+/*Project section starts here*/
+
+.container2 {
+  width: 90%;
+  margin: 0 auto;
+  height: 88vh;
+  top: 10vh;
+  text-align: center;
+}
+
+.container2 h1 {
+  display: none;
+}
+
+.container2 h1::before {
+  display: none;
+}
+
+.top-content {
+  background-color: rgb(243, 243, 243);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px rgb(153, 152, 152);
+  z-index: 1;
+}
+
+.top-content h2 {
+  height: 100%;
+  display: flex;
+  background-color: rgb(221, 221, 221);
+  padding: 0 1rem;
+  color: var(--grey-text);
+  line-height: unset;
+  font-size: calc(0.5rem + 1vw);
+  white-space: unset;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  margin: 0 6px;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(0.4rem + 1vw);
+  transition: color 0.5s;
+  line-height: unset;
+}
+
+label:active {
+  color: black;
+}
+
+.SamPro {
+  width: 90%;
+  height: 87%;
+  margin: -2vh auto;
+  grid-template-columns: repeat(2, 0fr);
+  grid-gap: 1rem;
+}
+
+.pic {
+  width: 130px;
+  height: 130px;
+}
+
+.pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.pic video {
+  width: 130px;
+  height: auto;
+}
+
+/* Full screen Image viewer starts here */
+
+#image-viewer {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(94, 94, 94, 0.9);
+}
+.modal-content {
+  margin: 10vh auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 80vw;
+}
+.modal-content {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#image-viewer .close {
+  position: absolute;
+  top: 2vh;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 65px;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#Contactme {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/pics/pexels-alex-andrews-3045245.jpg);
+  background-size: cover;
+  background-position: left;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactmecontent {
+  width: 95vw;
+  margin: auto;
+  height: 50%;
+  color: var(--white-text);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.1rem;
+}
+
+.contactmecontent img {
+  transform: scale(0.8);
+}
+
+.contactmecontent h1 {
+  font-size: calc(2.2rem + 1vw);
+  color: #ffc700;
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+  white-space: wrap;
+  -webkit-text-stroke-width: unset;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+.contactmecontent span {
+  margin-left: 2vw;
+}
+
+.email {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  font-size: calc(1.2rem + 1vw);
+}
+
+.phone {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  padding: unset;
+  font-size: calc(1.2rem + 1vw);
+}
+
+.website {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  font-size: calc(1.2rem + 1vw);
+}
+
+.contactmecontent {
+  padding-left: unset;
+  grid-gap: 1rem;
+}
+
+.social-links {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0;
+  width: 80vw;
+  height: 15vh;
+  display: flex;
+  grid-gap: 3rem;
+}
+
+.social-links::after {
+  content: "";
+  position: absolute;
+  background: rgb(255, 255, 255);
+  width: 50vw;
+  height: 2px;
+  bottom: 15vh;
+}
+
+.social-links img {
+  transform: scale(0.8);
+}
