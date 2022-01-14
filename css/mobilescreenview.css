@@ -378,3 +378,70 @@ nav .container.active {
 .skill2 img {
   display: none;
 }
+
+/* experience section starts here */
+
+.expcon {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  font-weight: 500;
+  display: flex;
+  white-space: nowrap;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.expcontent {
+  height: 50%;
+  width: 90%;
+  margin: auto;
+  color: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+
+.expcontent h1 {
+  font-family: 400;
+  font-size: calc(2rem + 1vw);
+  padding-bottom: 2rem;
+  text-decoration: underline;
+  color: rgb(214, 218, 3);
+  letter-spacing: 0.1rem;
+}
+
+.expcontent h2 {
+  font-size: calc(1.5rem + 1vw);
+  padding-bottom: 0.5rem;
+  font-weight: 400;
+  padding-left: 0rem;
+}
+
+.expcontent2 {
+  height: 50%;
+  width: 90%;
+  margin: auto;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.expcontent2 h1 {
+  font-family: 400;
+  font-size: calc(2rem + 1vw);
+  padding-bottom: 2rem;
+  text-decoration: underline;
+  color: rgb(214, 218, 3);
+  letter-spacing: 0.1rem;
+}
+
+.expcontent2 h2 {
+  font-size: calc(1.5rem + 1vw);
+  padding-bottom: 0.5rem;
+  font-weight: 400;
+  padding-right: 0rem;
+}
