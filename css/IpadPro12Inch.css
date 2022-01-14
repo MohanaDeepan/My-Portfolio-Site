@@ -29,7 +29,6 @@ html {
 
 section {
   overflow: hidden;
-  touch-action: pan-y;
 }
 
 /*burger thing */
