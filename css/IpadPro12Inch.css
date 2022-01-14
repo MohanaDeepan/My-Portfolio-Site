@@ -23,6 +23,10 @@ html {
   overflow-x: hidden;
 }
 
+section {
+  overflow: hidden;
+}
+
 /*burger thing */
 
 nav {
@@ -30,7 +34,7 @@ nav {
   top: unset;
   left: unset;
   width: 100vw;
-  height: unset;
+  height: 10vh;
   position: unset;
   text-align: unset;
   position: fixed;
