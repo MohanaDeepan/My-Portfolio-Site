@@ -3,6 +3,10 @@
 
 /* For scrollbar customization */
 
+@-ms-viewport {
+  width: device-width;
+}
+
 * {
   margin: 0;
   padding: 0;
