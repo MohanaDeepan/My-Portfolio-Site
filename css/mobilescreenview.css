@@ -554,7 +554,7 @@ label:active {
   width: 95%;
   align-items: center;
   justify-content: center;
-  touch-action: pinch-zoom;
+  touch-action: auto;
 }
 .modal-content {
   animation-name: zoom;
