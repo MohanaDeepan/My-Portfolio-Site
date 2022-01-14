@@ -204,7 +204,6 @@ nav .container {
 }
 
 .Profilename h1 {
-  background: violet;
   padding-top: 0.5rem;
   margin: 0 auto;
   color: var(--crimson-text);
@@ -217,7 +216,6 @@ nav .container {
 }
 
 .Profilename h2 {
-  background: yellow;
   padding-top: unset;
   font-size: var(--header3);
   font-weight: 400;
