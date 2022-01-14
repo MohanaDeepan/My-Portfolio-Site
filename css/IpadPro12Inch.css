@@ -292,8 +292,8 @@ h5 span {
   border-radius: 200rem;
   border: 0.3rem solid #000000;
   background-repeat: no-repeat;
-  width: 45rem;
-  height: 45rem;
+  width: 200px;
+  height: 400px;
   transform: scale(0.8, 0.8);
   justify-content: space-around;
   align-items: center;

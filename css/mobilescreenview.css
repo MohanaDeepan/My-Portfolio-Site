@@ -2,13 +2,13 @@ html {
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
   font-size: 62.5%;
-  --header1: calc(3rem + 1vw);
+  --header1: calc(1.8rem + 1vw);
   --header2: calc(1.5rem + 1vw);
-  --header3: calc(1.5rem + 1vw);
-  --header4: calc(3.5rem + 1vw);
+  --header3: calc(1.2rem + 1vw);
+  --header4: calc(3rem + 1vw);
   --button: calc(0.7rem + 1vw);
-  --contents: calc(1.5rem + 1vw);
-  --mediumleveltext: calc(2.8rem + 1vw);
+  --contents: calc(1rem + 1vw);
+  --mediumleveltext: calc(1.5rem + 1vw);
   --black-text: #000000;
   --green-text: #018b1f;
   --crimson-text: #dc143c;
@@ -115,4 +115,117 @@ nav .container {
   height: auto;
   object-fit: contain;
   position: relative;
+}
+
+.mastercontainer {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  z-index: 0;
+  flex-direction: column;
+}
+
+.leftsection {
+  margin: 0 auto;
+  height: 35vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: relatiave;
+  flex-direction: column;
+  z-index: -2;
+  overflow: hidden;
+}
+
+.profilepic {
+  border-radius: 200px;
+  border: 0.2rem solid #000000;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  transform: scale(0.8, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+section .aboutme .Profilename {
+  justify-content: unset;
+}
+
+.Profilename h1 {
+  margin: 0 auto;
+  color: var(--crimson-text);
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  font-size: var(--header1);
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.Profilename h2 {
+  padding-top: unset;
+  font-size: var(--header3);
+  font-weight: 400;
+  align-items: center;
+  text-align: center;
+}
+
+.rightsection {
+  top: 0vh;
+  height: 65vh;
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+}
+
+.paracontainer {
+  display: flex;
+  width: 85vw;
+  height: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.paracontainer::before {
+  content: "";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  background: #09203f;
+  position: absolute;
+  width: 50vw;
+  height: 2px;
+  border-radius: 50px;
+  z-index: 3;
+}
+
+.paracontainer h6 {
+  font-size: var(--mediumleveltext);
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.paracontainer p {
+  color: #046e00;
+  letter-spacing: 0.1rem;
+  text-align: justify;
+  padding-top: unset;
+  line-height: unset;
+}
+
+.paracontainer span {
+  color: var(--crimson-text);
 }
