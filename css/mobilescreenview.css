@@ -533,7 +533,7 @@ label:active {
 /* Full screen Image viewer starts here */
 
 #image-viewer {
-  display: flex;
+  display: none;
   position: fixed;
   left: 0;
   top: 0;
