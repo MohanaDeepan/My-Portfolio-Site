@@ -287,3 +287,115 @@ nav .container {
 .paracontainer span {
   color: var(--crimson-text);
 }
+
+/* Skill section */
+
+.Allcontainer {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  background-image: url(/pics/pexels-david-bartus-963278.jpg);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+}
+
+.imgcontain {
+  display: flex;
+  top: 0vh;
+  height: 90%;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.boxflex {
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  width: 70vw;
+  height: 96vh;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  grid-gap: 4rem 9rem;
+  backdrop-filter: blur(25px);
+  --webkit-backdrop-filter: blur(25px);
+}
+
+.boxflex::-webkit-scrollbar {
+  display: none;
+}
+
+.boxflex {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.boxflex img {
+  position: relative;
+  background: linear-gradient(
+    143.29deg,
+    rgba(30, 0, 94, 0.7) 1.29%,
+    rgba(255, 0, 0, 0.7) 97.35%
+  );
+  border-radius: 25px;
+  backdrop-filter: blur(103px);
+  -webkit-box-shadow: 0px 0px 33px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 33px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 33px -8px rgba(0, 0, 0, 0.75);
+  height: 20vh;
+  margin: auto;
+  width: auto;
+}
+
+.skill1 {
+  height: 80vh;
+  width: 5vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transform: none;
+  position: absolute;
+  right: 92vw;
+  z-index: 5;
+}
+
+.skill1 img {
+  position: relative;
+  height: 40vh;
+  width: auto;
+  bottom: 10vh;
+  background: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  backdrop-filter: none;
+}
+
+.skill2 {
+  height: 80vh;
+  width: 5vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transform: none;
+  position: absolute;
+  left: 92vw;
+  z-index: 5;
+}
+
+.skill2 img {
+  position: absolute;
+  height: 40vh;
+  background: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  backdrop-filter: none;
+}
