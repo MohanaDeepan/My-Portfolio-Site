@@ -114,7 +114,8 @@ nav .container {
   border-radius: 3rem;
   display: inline-block;
   height: 100%;
-  width: 100%;
+  width: 90%;
+  object-fit: contain;
   position: absolute;
   opacity: 0.7;
 }
