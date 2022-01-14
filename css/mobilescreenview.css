@@ -555,7 +555,6 @@ label:active {
   align-items: center;
   justify-content: center;
 }
-
 .modal-content {
   animation-name: zoom;
   animation-duration: 0.6s;
