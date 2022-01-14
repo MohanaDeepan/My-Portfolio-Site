@@ -30,11 +30,20 @@ nav {
 }
 
 nav .container {
-  right: -100%;
-  width: 100%;
-  height: 100%;
+  top: -100vh;
+  right: unset;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
   font-size: 2rem;
   line-height: 4.5rem;
+  overflow: hidden;
+}
+
+nav .container.active {
+  right: unset;
+  top: 0;
+  opacity: 1;
 }
 
 .Homepage a {
@@ -299,7 +308,6 @@ nav .container {
   background-size: cover;
   opacity: 0.5;
   position: absolute;
-  z-index: -1;
 }
 
 .imgcontain {
