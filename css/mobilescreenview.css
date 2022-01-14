@@ -111,7 +111,7 @@ nav .container {
 
 .man {
   display: flex;
-  width: 90%;
+  width: 90vw;
   height: auto;
   object-fit: contain;
   position: relative;
