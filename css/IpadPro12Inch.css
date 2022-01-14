@@ -29,6 +29,7 @@ html {
 
 section {
   overflow: hidden;
+  touch-action: none;
 }
 
 /*burger thing */
@@ -72,7 +73,13 @@ nav .container {
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(50px);
   opacity: 0;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url(/pics/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
   transition: 0.5s ease-in-out;
   -webkit-box-shadow: 0px 3px 16px -2px rgba(0, 0, 0, 0.35);
   -moz-box-shadow: 0px 3px 16px -2px rgba(0, 0, 0, 0.35);
