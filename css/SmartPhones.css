@@ -255,7 +255,7 @@
     margin: 0 auto;
     flex-wrap: wrap;
     flex-direction: row;
-    line-height: 2.2rem;
+    line-height: 2.5rem;
   }
 
   .paracontainer::before {
