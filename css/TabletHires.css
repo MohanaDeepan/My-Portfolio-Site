@@ -5,9 +5,9 @@ html {
   --header1: calc(3rem + 1vw);
   --header2: calc(2rem + 1vw);
   --header3: calc(2rem + 1vw);
-  --header4: calc(7rem + 1vw);
+  --header4: calc(6rem + 1vw);
   --button: calc(0.7rem + 1vw);
-  --contents: calc(1.5rem + 1vw);
+  --contents: calc(2rem + 1vw);
   --mediumleveltext: calc(2.8rem + 1vw);
   --black-text: #000000;
   --green-text: #018b1f;
@@ -53,12 +53,12 @@ nav .container {
   text-align: center;
   top: unset;
   right: -100%;
-  width: 50%;
+  width: 60%;
   margin: auto;
   height: 100%;
   font-weight: 400;
   color: var(--grey-text);
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 8rem;
   display: flex;
   justify-content: center;
@@ -67,7 +67,7 @@ nav .container {
   white-space: normal;
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(50px);
-  opacity: 1;
+  opacity: 0;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.7),
       rgba(255, 255, 255, 0.7)
@@ -87,7 +87,7 @@ nav .container.active {
 }
 .Homepage a {
   font-weight: 500;
-  font-size: calc(2.5rem + 1vw);
+  font-size: calc(2rem + 1vw);
 }
 
 nav .container ul li {
@@ -141,7 +141,7 @@ nav .container ul li.active a {
   height: 60px;
   width: 60px;
   position: absolute;
-  margin: -0.2vh 7vw;
+  margin: -0.2vh 6.2vw;
   z-index: -1;
 }
 
@@ -170,8 +170,8 @@ nav .container ul li.active a {
 /*section starts here*/
 .hero {
   width: 100vw;
-  height: 90vh;
-  top: 0;
+  height: 100vh;
+  top: unset;
   margin: auto;
   display: flex;
   position: relative;
@@ -180,8 +180,8 @@ nav .container ul li.active a {
 
 .hero-container {
   width: 95%;
-  height: 50vh;
-  margin: 0vh auto;
+  height: 40%;
+  margin: 5% auto;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -190,22 +190,24 @@ nav .container ul li.active a {
 .introcontent {
   display: flex;
   bottom: 0%;
-  top: 5vh;
-  margin: 0 auto;
+  margin: 5% auto;
+  width: 95%;
+  height: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-left: 0vh;
+  padding-left: unset;
   position: relative;
   letter-spacing: 0.2rem;
+  line-height: 8rem;
 }
 
 .introcontent::after {
   content: "";
   border-radius: 3rem;
   display: flex;
-  height: 35vh;
-  width: 60vw;
+  height: 350px;
+  width: 550px;
   position: absolute;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
@@ -216,11 +218,12 @@ nav .container ul li.active a {
 }
 
 .introcontent h2 {
+  padding: unset;
   font-weight: 400;
   font-size: var(--header2);
   text-align: center;
 }
-.portfolio {
+.portfolio span {
   font-weight: 500;
   font-size: 4rem;
   color: var(--green-text);
@@ -228,21 +231,24 @@ nav .container ul li.active a {
 }
 
 .introcontent h3 {
-  margin: 2vh 0vw 1.5vh 0;
+  margin: 0 0;
   font-weight: 400;
   font-size: var(--header3);
+  padding-top: unset;
 }
 
 .introcontent h4 {
-  margin: 0vh 8vw;
+  margin: 0 0;
+  padding: unset;
   font-weight: 550;
   font-size: var(--header4);
 }
 
 .introcontent h5 {
+  margin: 0 0;
+  padding: unset;
   font-weight: 550;
   font-size: var(--header4);
-  margin: 0 16vw;
 }
 
 h5 span {
@@ -250,22 +256,21 @@ h5 span {
 }
 
 .animation {
-  height: 50vh;
-  width: 90vw;
-  left: 0vw;
-  margin: 15vh 0 0 0;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+  height: 100%;
+  width: 100%;
   display: flex;
-  z-index: 5;
+  margin: auto;
+  position: relative;
+  object-fit: unset;
 }
 
 .man {
   display: flex;
-  width: 65vw;
-  height: auto;
-  object-fit: unset;
+  margin: 0 auto;
+  left: 0;
+  width: auto;
+  height: 58vh;
+  object-fit: contain;
   position: relative;
 }
 
@@ -283,12 +288,12 @@ h5 span {
 
 .leftsection {
   margin: auto;
-  height: 100vh;
-  width: 100vw;
+  height: 50%;
+  width: 95vw;
   align-items: center;
   justify-content: center;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: unset;
   position: relatiave;
   flex-direction: column;
   z-index: -2;
@@ -300,12 +305,13 @@ h5 span {
   background-size: cover;
   background-position: center;
   background-color: white;
-  border-radius: 200rem;
+  border-radius: 600px;
   border: 0.3rem solid #000000;
   background-repeat: no-repeat;
   width: 200px;
-  height: 400px;
-  transform: scale(0.8, 0.8);
+  height: 200px;
+  margin: auto;
+  transform: scale(1, 1);
   justify-content: space-around;
   align-items: center;
 }
