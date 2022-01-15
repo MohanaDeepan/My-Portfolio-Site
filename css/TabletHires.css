@@ -697,7 +697,8 @@
     align-items: center;
     height: auto;
     width: 80vw;
-    touch-action: none pinch-zoom;
+    touch-action: none;
+    touch-action: pinch-zoom;
   }
   .modal-content {
     animation-name: zoom;

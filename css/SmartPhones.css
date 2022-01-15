@@ -551,7 +551,8 @@
     width: 95%;
     align-items: center;
     justify-content: center;
-    touch-action: auto;
+    touch-action: none;
+    touch-action: pinch-zoom;
   }
   .modal-content {
     animation-name: zoom;
