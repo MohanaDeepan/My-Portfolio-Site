@@ -1,12 +1,11 @@
-/* Global Styles */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-
-/* For scrollbar customization */
-
 @-ms-viewport {
   width: device-width;
 }
 
+/* Global Styles */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/* For scrollbar customization */
 * {
   margin: 0;
   padding: 0;

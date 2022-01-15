@@ -1,7 +1,3 @@
-@-ms-viewport {
-  width: device-width;
-}
-
 html {
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
@@ -11,7 +7,7 @@ html {
   --header3: calc(1.2rem + 1vw);
   --header4: calc(3rem + 1vw);
   --button: calc(0.7rem + 1vw);
-  --contents: calc(1rem + 1vw);
+  --contents: calc(0.9rem + 1vw);
   --mediumleveltext: calc(1.5rem + 1vw);
   --black-text: #000000;
   --green-text: #018b1f;
@@ -510,7 +506,7 @@ label:active {
   width: 90%;
   height: 87%;
   margin: -2vh auto;
-  grid-template-columns: repeat(2, 0fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem;
 }
 
