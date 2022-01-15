@@ -7,7 +7,7 @@ html {
   --header3: calc(1.2rem + 1vw);
   --header4: calc(3rem + 1vw);
   --button: calc(0.7rem + 1vw);
-  --contents: calc(0.9rem + 1vw);
+  --contents: calc(1.1rem + 1vw);
   --mediumleveltext: calc(1.5rem + 1vw);
   --black-text: #000000;
   --green-text: #018b1f;
