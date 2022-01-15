@@ -8,7 +8,7 @@
     --header3: calc(2rem + 1vw);
     --header4: calc(7rem + 1vw);
     --button: calc(0.7rem + 1vw);
-    --contents: calc(1.5rem + 1vw);
+    --contents: calc(1.4rem + 1vw);
     --mediumleveltext: calc(2.8rem + 1vw);
     --black-text: #000000;
     --green-text: #018b1f;
@@ -80,6 +80,7 @@
     -webkit-box-shadow: 0px 3px 16px -2px rgba(0, 0, 0, 0.35);
     -moz-box-shadow: 0px 3px 16px -2px rgba(0, 0, 0, 0.35);
     box-shadow: 0px 3px 16px -2px rgba(0, 0, 0, 0.35);
+    touch-action: none;
   }
 
   nav .container.active {
@@ -142,14 +143,14 @@
     height: 60px;
     width: 60px;
     position: absolute;
-    margin: -0.2vh 7vw;
+    margin: -0.2vh 6vw;
     z-index: -1;
   }
 
   .bar {
     display: block;
     width: 35px;
-    height: 4px;
+    height: 5px;
     margin: 10px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -161,11 +162,11 @@
   }
 
   .hamburger.active .bar:nth-child(1) {
-    transform: translateY(14px) rotate(45deg);
+    transform: translateY(14px) rotate(44deg);
   }
 
   .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-13px) rotate(-45deg);
+    transform: translateY(-15px) rotate(-44deg);
   }
 
   /*section starts here*/
@@ -305,8 +306,8 @@
     border-radius: 200rem;
     border: 0.3rem solid #000000;
     background-repeat: no-repeat;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     transform: scale(0.8, 0.8);
     justify-content: space-around;
     align-items: center;
@@ -323,7 +324,7 @@
   }
 
   .Profilename h2 {
-    padding-top: 3rem;
+    padding-top: 2rem;
     font-size: var(--header3);
     font-weight: 400;
     align-items: center;
@@ -331,7 +332,7 @@
   }
 
   .rightsection {
-    top: 0vh;
+    top: -2vh;
     height: 100vh;
     width: 100vw;
     justify-content: center;
@@ -368,7 +369,7 @@
   .paracontainer h6 {
     font-size: var(--mediumleveltext);
     font-weight: 400;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     justify-content: flex-end;
     text-align: center;
   }
@@ -377,8 +378,8 @@
     color: #046e00;
     letter-spacing: 0.1rem;
     text-align: justify;
-    padding-top: 2rem;
-    line-height: 5rem;
+    padding-top: unset;
+    line-height: 4rem;
     font-size: var(--contents);
   }
 
