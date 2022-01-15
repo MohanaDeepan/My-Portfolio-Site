@@ -68,7 +68,7 @@
     white-space: normal;
     backdrop-filter: blur(50px);
     -webkit-backdrop-filter: blur(50px);
-    opacity: 1;
+    opacity: 0;
     background-image: linear-gradient(
         rgba(255, 255, 255, 0.7),
         rgba(255, 255, 255, 0.7)
