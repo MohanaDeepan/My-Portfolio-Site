@@ -263,8 +263,9 @@ h5 span {
 
 .man {
   display: flex;
-  width: 65vw;
-  height: auto;
+  left: 2.5%;
+  width: auto;
+  height: 100%;
   object-fit: unset;
   position: relative;
 }

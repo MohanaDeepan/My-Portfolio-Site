@@ -2,8 +2,8 @@ html {
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
   font-size: 62.5%;
-  --header1: calc(1.8rem + 1vw);
-  --header2: calc(1.5rem + 1vw);
+  --header1: calc(1.5rem + 1vw);
+  --header2: calc(1.2rem + 1vw);
   --header3: calc(1.2rem + 1vw);
   --header4: calc(3rem + 1vw);
   --button: calc(0.7rem + 1vw);
@@ -172,8 +172,8 @@ nav .container.active {
   display: flex;
   margin: auto;
   left: 2.5%;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
   object-fit: contain;
   position: relative;
 }
