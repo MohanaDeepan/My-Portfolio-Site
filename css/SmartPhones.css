@@ -2,9 +2,9 @@ html {
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
   font-size: 62.5%;
-  --header1: calc(2.2rem + 1vw);
+  --header1: calc(1.8rem + 1vw);
   --header2: calc(1.5rem + 1vw);
-  --header3: calc(1.7rem + 1vw);
+  --header3: calc(1.2rem + 1vw);
   --header4: calc(3rem + 1vw);
   --button: calc(0.7rem + 1vw);
   --contents: calc(0.9rem + 1vw);
@@ -35,8 +35,8 @@ nav .container {
   width: 100vw;
   height: 100vh;
   margin: auto;
-  font-size: 2.2rem;
-  line-height: 5rem;
+  font-size: 2rem;
+  line-height: 4.5rem;
   overflow: hidden;
   touch-action: none;
 }
@@ -48,7 +48,7 @@ nav .container.active {
 }
 
 .Homepage a {
-  font-size: calc(2.5rem + 1vw);
+  font-size: calc(2rem + 1vw);
 }
 
 .hamburger {
@@ -60,7 +60,7 @@ nav .container.active {
 .hamburger::before {
   height: 41.5px;
   width: 41.5px;
-  margin: -0.5vh 4.7vw;
+  margin: -0.5vh 4.5vw;
 }
 
 .bar {
@@ -123,8 +123,8 @@ nav .container.active {
   content: "";
   border-radius: 3rem;
   display: inline-block;
-  height: 75%;
-  width: 75%;
+  height: 90%;
+  width: 90%;
   object-fit: contain;
   position: absolute;
   opacity: 0.7;
@@ -205,8 +205,8 @@ nav .container.active {
 .profilepic {
   border-radius: 200px;
   border: 0.2rem solid #000000;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   margin: auto;
   transform: scale(1, 1);
   justify-content: center;
@@ -254,7 +254,7 @@ nav .container.active {
   margin: 0 auto;
   flex-wrap: wrap;
   flex-direction: row;
-  line-height: 2.8rem;
+  line-height: 2.2rem;
 }
 
 .paracontainer::before {
@@ -272,7 +272,7 @@ nav .container.active {
 }
 
 .paracontainer h6 {
-  font-size: calc(1.8rem + 1vw);
+  font-size: var(--mediumleveltext);
   font-weight: 400;
   padding: unset;
   justify-content: center;
@@ -291,7 +291,7 @@ nav .container.active {
   text-align: justify;
   padding-top: unset;
   line-height: unset;
-  font-size: calc(1.15rem + 1vw);
+  font-size: var(--contents);
 }
 
 .paracontainer span {
@@ -333,7 +333,7 @@ nav .container.active {
   height: 100%;
   flex-wrap: wrap;
   overflow-y: scroll;
-  grid-gap: 0rem 3rem;
+  grid-gap: 0rem 1.5rem;
   backdrop-filter: blur(25px);
   --webkit-backdrop-filter: blur(25px);
 }
@@ -359,7 +359,7 @@ nav .container.active {
   -webkit-box-shadow: 0px 0px 33px -8px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 33px -8px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 33px -8px rgba(0, 0, 0, 0.75);
-  height: 145px;
+  height: 130px;
   margin: auto;
   width: auto;
 }
@@ -406,7 +406,7 @@ nav .container.active {
 
 .expcontent h1 {
   font-family: 400;
-  font-size: calc(2.2rem + 1vw);
+  font-size: calc(2rem + 1vw);
   padding-bottom: 2rem;
   text-decoration: underline;
   color: rgb(214, 218, 3);
@@ -415,7 +415,7 @@ nav .container.active {
 
 .expcontent h2 {
   font-size: calc(1.5rem + 1vw);
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
   font-weight: 400;
   padding-left: 0rem;
 }
@@ -433,7 +433,7 @@ nav .container.active {
 
 .expcontent2 h1 {
   font-family: 400;
-  font-size: calc(2.2rem + 1vw);
+  font-size: calc(2rem + 1vw);
   padding-bottom: 2rem;
   text-decoration: underline;
   color: rgb(214, 218, 3);
@@ -442,7 +442,7 @@ nav .container.active {
 
 .expcontent2 h2 {
   font-size: calc(1.5rem + 1vw);
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
   font-weight: 400;
   padding-right: 0rem;
 }
@@ -482,8 +482,8 @@ nav .container.active {
   background-color: rgb(221, 221, 221);
   padding: 0 1rem;
   color: var(--grey-text);
-  line-height: 1.2;
-  font-size: calc(0.8rem + 1vw);
+  line-height: unset;
+  font-size: calc(0.5rem + 1vw);
   white-space: unset;
   justify-content: center;
   align-items: center;
@@ -493,9 +493,9 @@ label {
   margin: 0 6px;
   justify-content: center;
   align-items: center;
-  font-size: calc(0.5rem + 1vw);
+  font-size: calc(0.4rem + 1vw);
   transition: color 0.5s;
-  line-height: 1.4rem;
+  line-height: unset;
 }
 
 label:active {
@@ -505,14 +505,14 @@ label:active {
 .SamPro {
   width: 90%;
   height: 87%;
-  margin: 0vh auto;
+  margin: -2vh auto;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem 1.6rem;
+  grid-gap: 1rem;
 }
 
 .pic {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
 }
 
 .pic img {
@@ -522,7 +522,7 @@ label:active {
 }
 
 .pic video {
-  width: 150px;
+  width: 130px;
   height: auto;
 }
 
@@ -615,7 +615,7 @@ label:active {
   flex-direction: row;
   display: flex;
   align-items: center;
-  font-size: calc(1.3rem + 1vw);
+  font-size: calc(1.2rem + 1vw);
 }
 
 .phone {
@@ -623,26 +623,26 @@ label:active {
   display: flex;
   align-items: center;
   padding: unset;
-  font-size: calc(1.3rem + 1vw);
+  font-size: calc(1.2rem + 1vw);
 }
 
 .website {
   flex-direction: row;
   display: flex;
   align-items: center;
-  font-size: calc(1.3rem + 1vw);
+  font-size: calc(1.2rem + 1vw);
 }
 
 .contactmecontent {
   padding-left: unset;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
 }
 
 .social-links {
   position: relative;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  margin: auto 0;
   width: 80vw;
   height: 15vh;
   display: flex;
@@ -659,5 +659,5 @@ label:active {
 }
 
 .social-links img {
-  transform: scale(0.7);
+  transform: scale(0.8);
 }
