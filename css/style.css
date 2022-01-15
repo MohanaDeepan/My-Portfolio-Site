@@ -892,7 +892,16 @@ label:hover {
   width: 85vw;
   height: 20vh;
   display: flex;
-  grid-gap: 3rem;
+  grid-gap: 5rem;
+}
+
+.social-links::after {
+  content: "";
+  position: absolute;
+  background: rgb(255, 255, 255);
+  width: 20vw;
+  height: 2px;
+  bottom: 10vh;
 }
 
 @media only screen and (max-width: 700px) {
