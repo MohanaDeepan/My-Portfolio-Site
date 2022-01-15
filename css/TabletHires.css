@@ -5,9 +5,9 @@ html {
   --header1: calc(3rem + 1vw);
   --header2: calc(2rem + 1vw);
   --header3: calc(2rem + 1vw);
-  --header4: calc(6rem + 1vw);
+  --header4: calc(7rem + 1vw);
   --button: calc(0.7rem + 1vw);
-  --contents: calc(2rem + 1vw);
+  --contents: calc(1.5rem + 1vw);
   --mediumleveltext: calc(2.8rem + 1vw);
   --black-text: #000000;
   --green-text: #018b1f;
@@ -53,12 +53,12 @@ nav .container {
   text-align: center;
   top: unset;
   right: -100%;
-  width: 60%;
+  width: 50%;
   margin: auto;
   height: 100%;
   font-weight: 400;
   color: var(--grey-text);
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: 8rem;
   display: flex;
   justify-content: center;
@@ -67,7 +67,7 @@ nav .container {
   white-space: normal;
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(50px);
-  opacity: 0;
+  opacity: 1;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.7),
       rgba(255, 255, 255, 0.7)
@@ -87,7 +87,7 @@ nav .container.active {
 }
 .Homepage a {
   font-weight: 500;
-  font-size: calc(2rem + 1vw);
+  font-size: calc(2.5rem + 1vw);
 }
 
 nav .container ul li {
@@ -141,7 +141,7 @@ nav .container ul li.active a {
   height: 60px;
   width: 60px;
   position: absolute;
-  margin: -0.2vh 6.2vw;
+  margin: -0.2vh 7vw;
   z-index: -1;
 }
 
@@ -170,8 +170,8 @@ nav .container ul li.active a {
 /*section starts here*/
 .hero {
   width: 100vw;
-  height: 100vh;
-  top: unset;
+  height: 90vh;
+  top: 0;
   margin: auto;
   display: flex;
   position: relative;
@@ -180,8 +180,8 @@ nav .container ul li.active a {
 
 .hero-container {
   width: 95%;
-  height: 40%;
-  margin: 5% auto;
+  height: 50vh;
+  margin: 0vh auto;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -190,24 +190,22 @@ nav .container ul li.active a {
 .introcontent {
   display: flex;
   bottom: 0%;
-  margin: 5% auto;
-  width: 95%;
-  height: 100%;
+  top: 5vh;
+  margin: 0 auto;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-left: unset;
+  padding-left: 0vh;
   position: relative;
   letter-spacing: 0.2rem;
-  line-height: 8rem;
 }
 
 .introcontent::after {
   content: "";
   border-radius: 3rem;
   display: flex;
-  height: 350px;
-  width: 550px;
+  height: 35vh;
+  width: 60vw;
   position: absolute;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
@@ -218,12 +216,11 @@ nav .container ul li.active a {
 }
 
 .introcontent h2 {
-  padding: unset;
   font-weight: 400;
   font-size: var(--header2);
   text-align: center;
 }
-.portfolio span {
+.portfolio {
   font-weight: 500;
   font-size: 4rem;
   color: var(--green-text);
@@ -231,24 +228,21 @@ nav .container ul li.active a {
 }
 
 .introcontent h3 {
-  margin: 0 0;
+  margin: 2vh 0vw 1.5vh 0;
   font-weight: 400;
   font-size: var(--header3);
-  padding-top: unset;
 }
 
 .introcontent h4 {
-  margin: 0 0;
-  padding: unset;
+  margin: 0vh 8vw;
   font-weight: 550;
   font-size: var(--header4);
 }
 
 .introcontent h5 {
-  margin: 0 0;
-  padding: unset;
   font-weight: 550;
   font-size: var(--header4);
+  margin: 0 16vw;
 }
 
 h5 span {
@@ -256,21 +250,22 @@ h5 span {
 }
 
 .animation {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  margin: auto;
+  height: 50vh;
+  width: 90vw;
+  left: 0vw;
+  margin: 15vh 0 0 0;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  object-fit: unset;
+  display: flex;
+  z-index: 5;
 }
 
 .man {
   display: flex;
-  margin: 0 auto;
-  left: 0;
-  width: auto;
-  height: 58vh;
-  object-fit: contain;
+  width: 65vw;
+  height: auto;
+  object-fit: unset;
   position: relative;
 }
 
@@ -288,12 +283,12 @@ h5 span {
 
 .leftsection {
   margin: auto;
-  height: 50%;
-  width: 95vw;
+  height: 100vh;
+  width: 100vw;
   align-items: center;
   justify-content: center;
   display: flex;
-  flex-wrap: unset;
+  flex-wrap: wrap;
   position: relatiave;
   flex-direction: column;
   z-index: -2;
@@ -305,13 +300,12 @@ h5 span {
   background-size: cover;
   background-position: center;
   background-color: white;
-  border-radius: 600px;
+  border-radius: 200rem;
   border: 0.3rem solid #000000;
   background-repeat: no-repeat;
   width: 200px;
-  height: 200px;
-  margin: auto;
-  transform: scale(1, 1);
+  height: 400px;
+  transform: scale(0.8, 0.8);
   justify-content: space-around;
   align-items: center;
 }
