@@ -1,11 +1,41 @@
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 1280px) {
+  .hero {
+    width: 90vw;
+    height: 90vh;
+    top: 10vh;
+    margin: auto;
+    display: flex;
+    position: relative;
+    z-index: -5;
+  }
+
+  .hero-container {
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+
+  .introcontent {
+    display: flex;
+    width: 55%;
+    bottom: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: unset;
+    position: relative;
+    letter-spacing: 0.2rem;
+  }
+
   .introcontent::after {
     height: 53vh;
     width: 48vw;
   }
 
   .animation {
-    left: 8vh;
+    left: unset;
   }
 
   .skill2 {
@@ -21,75 +51,6 @@
   }
 
   label {
-    margin: 0 18px;
+    margin: 0 11px;
   }
-}
-
-@media only screen and (max-width: 1240px) {
-  nav .container {
-    width: 90vh;
-  }
-
-  nav .container ul li a {
-    padding: 1vh 3.5vw;
-  }
-
-  .hero {
-    width: 100vw;
-  }
-
-  .rightsection {
-    width: 70vw;
-  }
-}
-
-.top-content h2 {
-  padding: 0 2rem;
-}
-
-.SamPro {
-  grid-template-columns: repeat(4, 1fr);
-}
-
-label {
-  margin: 0 15px;
-}
-.contactmecontent h1 {
-  font-size: calc(3rem + 1vw);
-}
-.contactmecontent span {
-  margin-left: 2vw;
-}
-
-.email {
-  flex-direction: row;
-  display: flex;
-  align-items: center;
-  font-size: calc(1.5rem + 1vw);
-}
-
-.phone {
-  font-size: calc(1.5rem + 1vw);
-}
-
-.website {
-  flex-direction: row;
-  display: flex;
-  align-items: center;
-  font-size: calc(1.5rem + 1vw);
-}
-
-.contactmecontent {
-  padding-left: 2rem;
-  grid-gap: 2rem;
-}
-
-.social-links {
-  position: relative;
-  align-items: flex-end;
-  margin: auto;
-  width: 85vw;
-  height: 20vh;
-  display: flex;
-  grid-gap: 3rem;
 }
