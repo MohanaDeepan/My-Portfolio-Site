@@ -155,10 +155,7 @@ section {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)
-    ),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(/pics/pexels-toa-heftiba-şinca-1194420.jpg);
   opacity: 1;
   background-position: center;
@@ -443,7 +440,7 @@ h5 span {
   -moz-box-shadow: 0px 0px 33px -8px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 33px -8px rgba(0, 0, 0, 0.75);
   height: 30vh;
-  margin: auto;
+  margin: 0;
   width: auto;
 }
 
@@ -477,7 +474,6 @@ h5 span {
   justify-content: center;
   align-items: center;
   display: flex;
-  transform: rotate(0deg);
   position: absolute;
   left: 92vw;
   z-index: 5;
