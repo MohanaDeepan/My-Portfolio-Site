@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 @media only screen and (max-width: 1280px) {
   html {
     scroll-behavior: smooth;
@@ -50,12 +48,6 @@
     -webkit-backdrop-filter: none;
   }
 
-=======
-@media only screen and (min-width: 1280px) {
->>>>>>> parent of 22f2fbe (b)
-=======
-@media only screen and (min-width: 1280px) {
->>>>>>> parent of 22f2fbe (b)
   .hero {
     width: 100%;
     height: 100%;
