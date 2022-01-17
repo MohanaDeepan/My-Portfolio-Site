@@ -174,7 +174,7 @@
     width: 100vw;
     height: 90vh;
     top: 0;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     position: relative;
     z-index: -5;
@@ -182,8 +182,8 @@
 
   .hero-container {
     width: 95%;
-    height: 50vh;
-    margin: 0vh auto;
+    height: 100%;
+    margin: 10vh auto;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -207,7 +207,7 @@
     border-radius: 3rem;
     display: flex;
     height: 35vh;
-    width: 60vw;
+    width: 65vw;
     position: absolute;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);

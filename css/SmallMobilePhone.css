@@ -264,6 +264,7 @@ nav .container.active {
   bottom: 0;
   right: 0;
   left: 0;
+  margin: 0vh auto;
   background: #09203f;
   position: absolute;
   width: 50vw;
