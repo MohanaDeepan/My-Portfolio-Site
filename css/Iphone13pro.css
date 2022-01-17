@@ -55,7 +55,7 @@
   .hamburger {
     height: 1vh;
     width: 20vw;
-    margin: 2vh 80vw;
+    margin: 2vh 50vw;
   }
 
   .hamburger::before {

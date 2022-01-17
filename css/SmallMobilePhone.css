@@ -121,6 +121,7 @@ nav .container.active {
 
 .introcontent::after {
   content: "";
+  right: unset;
   border-radius: 3rem;
   display: inline-block;
   height: 90%;

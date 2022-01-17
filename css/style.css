@@ -61,6 +61,7 @@ nav {
   left: 0;
   width: 100vw;
   height: 9.8vh;
+  margin: 10px auto;
   position: fixed;
   text-align: center;
   z-index: 10;
@@ -80,19 +81,19 @@ nav {
   display: block;
   width: 35px;
   height: 4px;
-  margin: 10px auto;
+  margin: 10px 0;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #101010;
 }
 
 nav .container {
-  width: 95vh;
+  width: 95vw;
   margin: auto;
   height: 10vh;
   font-weight: 400;
   color: var(--grey-text);
-  font-size: var(--contents);
+  font-size: calc(1rem + 1vw);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,7 +109,7 @@ nav .container ul {
 
 .Homepage a {
   font-weight: 500;
-  font-size: calc(1rem + 1vw);
+  font-size: calc(2rem + 1vw);
 }
 
 nav .container ul li {
@@ -117,7 +118,7 @@ nav .container ul li {
 
 nav .container ul li a {
   display: inline-block;
-  padding: 1vh 4vw;
+  padding: 1vh 3.5vw;
   color: var(--black-text);
   text-decoration: none;
 }
@@ -145,7 +146,6 @@ section {
   height: 100vh;
   width: 100vw;
   display: flex;
-  margin: auto;
   position: relative;
   scroll-snap-align: start;
   /*overflow: hidden;*/
@@ -165,41 +165,43 @@ section {
 }
 
 .hero {
-  width: 90vw;
-  height: 90vh;
-  top: 10vh;
-  margin: auto;
+  width: 95%;
+  height: 90%;
+  margin: 5.5% auto;
   display: flex;
   position: relative;
   z-index: -5;
 }
 
 .hero-container {
-  width: 95vw;
-  height: 90vh;
+  width: 95%;
+  height: 100%;
+  margin: auto;
   display: flex;
   position: relative;
+  justify-content: center;
   align-items: center;
 }
 
 .introcontent {
   display: flex;
-  width: 55%;
-  bottom: 4rem;
+  width: 50%;
+  height: 100%;
+  padding-left: unset;
   flex-direction: column;
   justify-content: center;
-  padding-left: 10vh;
+  align-items: center;
   position: relative;
   letter-spacing: 0.2rem;
 }
 
 .introcontent::after {
   content: "";
-  margin: -4vw;
-  border-radius: 3rem;
+  border-radius: 5rem;
   display: flex;
-  height: 50vh;
-  width: 45vw;
+  right: vw;
+  height: 500px;
+  width: 800px;
   position: absolute;
   backdrop-filter: blur(25px);
   -webkit-backdrop-filter: blur(25px);
@@ -254,8 +256,8 @@ h5 span {
 
 .man {
   display: flex;
-  width: 50vw;
-  height: 80vh;
+  width: auto;
+  height: 100%;
   object-fit: contain;
   position: relative;
 }
@@ -284,7 +286,7 @@ h5 span {
 .leftsection {
   margin: auto;
   height: 100vh;
-  width: 40vw;
+  width: 40%;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -303,9 +305,9 @@ h5 span {
   border-radius: 200rem;
   border: 0.3rem solid #000000;
   background-repeat: no-repeat;
-  width: 40rem;
-  height: 40rem;
-  transform: scale(0.8, 0.8);
+  width: 400px;
+  height: 400px;
+  transform: scale(1, 1);
   justify-content: space-around;
   align-items: center;
 }
@@ -314,14 +316,15 @@ h5 span {
   color: var(--crimson-text);
   font-weight: 500;
   letter-spacing: 0.2rem;
-  font-size: var(--header1);
+  padding-top: 2rem;
+  font-size: calc(2.5rem + 1vw);
   justify-content: space-around;
   align-items: center;
   text-align: center;
 }
 
 .Profilename h2 {
-  font-size: var(--header3);
+  font-size: calc(2rem + 1vw);
   font-weight: 400;
   align-items: center;
   text-align: center;
@@ -332,6 +335,7 @@ h5 span {
   height: 90vh;
   width: 80vw;
   justify-content: center;
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -349,7 +353,7 @@ h5 span {
 
 .paracontainer::before {
   content: "";
-  top: 20vh;
+  top: 15vh;
   bottom: 0;
   right: 0;
   left: 0;
@@ -362,7 +366,7 @@ h5 span {
 }
 
 .paracontainer h6 {
-  font-size: var(--mediumleveltext);
+  font-size: calc(3rem + 1vw);
   font-weight: 400;
   padding-bottom: 2rem;
   justify-content: flex-end;
@@ -374,8 +378,8 @@ h5 span {
   letter-spacing: 0.1rem;
   text-align: justify;
   padding-top: 2rem;
-  line-height: 4rem;
-  font-size: var(--contents);
+  line-height: 6rem;
+  font-size: calc(1rem + 1vw);
 }
 
 .paracontainer span {
@@ -396,8 +400,8 @@ h5 span {
 .imgcontain {
   display: flex;
   top: 5vh;
-  height: 80vh;
-  width: 100vw;
+  height: 90%;
+  width: 100%;
   margin: auto;
   align-items: center;
   justify-content: center;
@@ -440,7 +444,7 @@ h5 span {
   -moz-box-shadow: 0px 0px 33px -8px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 33px -8px rgba(0, 0, 0, 0.75);
   height: 30vh;
-  margin: 0;
+  margin: auto;
   width: auto;
 }
 
@@ -450,7 +454,6 @@ h5 span {
   justify-content: center;
   align-items: center;
   display: flex;
-  transform: rotate(180deg);
   position: absolute;
   right: 92vw;
   z-index: 5;
@@ -536,7 +539,7 @@ h5 span {
 
 .expcontent h1 {
   font-family: 400;
-  font-size: calc(2.5rem + 1vw);
+  font-size: calc(3rem + 1vw);
   padding-bottom: 2rem;
   text-decoration: underline;
   color: rgb(214, 218, 3);
@@ -544,7 +547,7 @@ h5 span {
 }
 
 .expcontent h2 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   padding-bottom: 1rem;
   font-weight: 400;
   padding-left: 2rem;
@@ -560,7 +563,7 @@ h5 span {
 
 .expcontent2 h1 {
   font-family: 400;
-  font-size: calc(2.5rem + 1vw);
+  font-size: calc(3rem + 1vw);
   padding-bottom: 2rem;
   text-decoration: underline;
   color: rgb(214, 218, 3);
@@ -568,7 +571,8 @@ h5 span {
 }
 
 .expcontent2 h2 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
+  padding-bottom: 1rem;
   font-weight: 400;
   padding-right: 2rem;
 }
@@ -624,7 +628,7 @@ input {
   background-color: rgb(243, 243, 243);
   width: 100%;
   margin: 0 auto 20px auto;
-  height: 60px;
+  height: 70px;
   display: flex;
   align-items: center;
   border-radius: 3px;
@@ -644,10 +648,10 @@ input {
 label {
   display: flex;
   height: 100%;
-  margin: 0 20px;
+  margin: 0 22px;
   line-height: 60px;
   white-space: nowrap;
-  font-size: calc(0.3rem + 1vw);
+  font-size: calc(0.5rem + 1vw);
   color: gray;
   cursor: pointer;
   transition: color 0.5s;
@@ -663,7 +667,7 @@ label:hover {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 5px;
+  grid-gap: 10px;
   overflow: auto;
   scrollbar-color: #dc5d14 #9e9e9e;
   scrollbar-width: thin;
@@ -671,8 +675,8 @@ label:hover {
 
 .pic {
   position: relative;
-  width: 230px;
-  height: 230px;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
   transition: 0.5s;
 }
@@ -846,7 +850,7 @@ label:hover {
 }
 
 .contactmecontent h1 {
-  font-size: calc(3.5rem + 1vw);
+  font-size: calc(5rem + 1vw);
   color: #ffc700;
   text-decoration: underline;
   white-space: nowrap;
@@ -859,21 +863,21 @@ label:hover {
   flex-direction: row;
   display: flex;
   align-items: center;
-  font-size: calc(1.5rem + 1vw);
+  font-size: calc(2rem + 1vw);
 }
 
 .phone {
   flex-direction: row;
   display: flex;
   align-items: center;
-  font-size: calc(1.5rem + 1vw);
+  font-size: calc(2rem + 1vw);
 }
 
 .website {
   flex-direction: row;
   display: flex;
   align-items: center;
-  font-size: calc(1.5rem + 1vw);
+  font-size: calc(2rem + 1vw);
 }
 
 .contactmecontent {
@@ -884,7 +888,7 @@ label:hover {
 .social-links {
   position: relative;
   align-items: flex-end;
-  margin: auto;
+  margin: -10vh auto;
   width: 85vw;
   height: 20vh;
   display: flex;
@@ -897,7 +901,7 @@ label:hover {
   background: rgb(255, 255, 255);
   width: 20vw;
   height: 2px;
-  bottom: 10vh;
+  bottom: 8vh;
 }
 
 @media only screen and (max-width: 700px) {

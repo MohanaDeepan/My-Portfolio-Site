@@ -35,7 +35,7 @@
     top: unset;
     left: unset;
     width: 100vw;
-    height: 10vh;
+    height: 8vh;
     position: unset;
     text-align: unset;
     position: fixed;
@@ -192,7 +192,7 @@
   .introcontent {
     display: flex;
     bottom: 0%;
-    top: 5vh;
+    top: unset;
     margin: 0 auto;
     flex-direction: column;
     align-items: center;
@@ -255,7 +255,7 @@
     height: 50vh;
     width: 90vw;
     left: 0vw;
-    margin: 15vh 0 0 0;
+    margin: 2vh auto;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -276,23 +276,23 @@
 
   .mastercontainer {
     position: relative;
-    height: 100vh;
+    height: 92vh;
     width: 100vw;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     z-index: 0;
     flex-direction: column;
   }
 
   .leftsection {
-    margin: auto;
-    height: 100vh;
-    width: 100vw;
+    margin: 0 auto;
+    height: 40%;
+    width: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    position: relatiave;
+    position: relative;
     flex-direction: column;
     z-index: -2;
     overflow: hidden;
@@ -306,10 +306,10 @@
     border-radius: 200rem;
     border: 0.3rem solid #000000;
     background-repeat: no-repeat;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     transform: scale(0.8, 0.8);
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
   }
 
@@ -332,8 +332,8 @@
   }
 
   .rightsection {
-    top: -2vh;
-    height: 100vh;
+    top: unset;
+    height: 60%;
     width: 100vw;
     justify-content: center;
     display: flex;
@@ -357,7 +357,7 @@
     bottom: 0;
     right: 0;
     left: 0;
-    margin: 0 auto;
+    margin: 2vh auto;
     background: #09203f;
     position: absolute;
     width: 50vw;
@@ -417,10 +417,10 @@
     display: grid;
     grid-template-columns: repeat(2, 0fr);
     width: 70vw;
-    height: 96vh;
+    height: 95vh;
     flex-wrap: wrap;
     overflow-y: scroll;
-    grid-gap: 4rem 4rem;
+    grid-gap: 0rem 4rem;
     backdrop-filter: blur(25px);
     --webkit-backdrop-filter: blur(25px);
   }
@@ -446,7 +446,7 @@
     -webkit-box-shadow: 0px 0px 33px -8px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 33px -8px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 33px -8px rgba(0, 0, 0, 0.75);
-    height: 20vh;
+    height: 18vh;
     margin: auto;
     width: auto;
   }

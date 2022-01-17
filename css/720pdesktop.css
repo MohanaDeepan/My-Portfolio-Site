@@ -32,6 +32,22 @@
     text-align: center;
   }
 
+  nav .container {
+    width: 95vw;
+    margin: auto;
+    height: 10vh;
+    font-weight: 400;
+    color: var(--grey-text);
+    font-size: calc(0.9rem + 1vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 5rem;
+    white-space: nowrap;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+
   .hero {
     width: 100%;
     height: 100%;
