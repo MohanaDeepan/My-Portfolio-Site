@@ -257,6 +257,7 @@ h5 span {
 .man {
   display: flex;
   width: auto;
+  left: 2vw;
   height: 100%;
   object-fit: contain;
   position: relative;
@@ -910,8 +911,497 @@ label:hover {
   }
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1600px) {
+  .introcontent::after {
+    width: 500px;
+    height: 400px;
+  }
+  nav .container {
+    font-size: calc(0.5rem + 1vw);
+  }
+
+  .Homepage a {
+    font-size: calc(1.3rem + 1vw);
+  }
+
+  .profilepic {
+    width: 250px;
+    height: 250px;
+    transform: scale(1, 1);
+  }
+
+  .Profilename h1 {
+    font-size: calc(2rem + 1vw);
+  }
+
+  .Profilename h2 {
+    font-size: calc(1.5rem + 1vw);
+  }
+
+  .paracontainer::before {
+    top: 15vh;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 3px;
+    height: 60vh;
+  }
+
+  .paracontainer h6 {
+    font-size: calc(2rem + 1vw);
+    padding-bottom: 1rem;
+  }
+
+  .paracontainer p {
+    padding-top: 1.5rem;
+    line-height: 4rem;
+    font-size: calc(0.7rem + 1vw);
+  }
+
+  .expcontent h1 {
+    font-size: calc(2rem + 1vw);
+    padding-bottom: 2rem;
+  }
+
+  .expcontent h2 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    font-weight: 400;
+    padding-left: 2rem;
+  }
+
+  .expcontent2 {
+    padding-top: 5vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .expcontent2 h1 {
+    font-size: calc(2rem + 1vw);
+    padding-bottom: 2rem;
+  }
+
+  .expcontent2 h2 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .top-content h2 {
+    height: 100%;
+    background-color: rgb(221, 221, 221);
+    padding: 0 5rem;
+    color: var(--grey-text);
+    line-height: 60px;
+    font-size: calc(0.7rem + 1vw);
+    white-space: nowrap;
+  }
+
   label {
-    margin: 0 17px;
+    height: 100%;
+    margin: 0 18px;
+    line-height: 60px;
+    white-space: nowrap;
+    font-size: calc(0.2rem + 1vw);
+  }
+
+  .SamPro {
+    width: 90%;
+    height: 70vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    scrollbar-width: thin;
+    overflow-x: hidden;
+  }
+
+  .pic {
+    width: 200px;
+    height: 200px;
+  }
+
+  .pic video {
+    width: 200px;
+    height: auto;
+  }
+
+  .contactmecontent h1 {
+    font-size: calc(4rem + 1vw);
+  }
+
+  .email {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    font-size: calc(1.5rem + 1vw);
+  }
+
+  .phone {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    font-size: calc(1.5rem + 1vw);
+  }
+
+  .website {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    font-size: calc(1.5rem + 1vw);
+  }
+
+  .contactmecontent {
+    grid-gap: 2rem;
+  }
+
+  .social-links {
+    position: relative;
+    align-items: flex-end;
+    margin: -10vh auto;
+    width: 85vw;
+    height: 20vh;
+    display: flex;
+    grid-gap: 5rem;
+  }
+
+  .social-links::after {
+    content: "";
+    position: absolute;
+    background: rgb(255, 255, 255);
+    width: 20vw;
+    height: 2px;
+    bottom: 8vh;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .introcontent::after {
+    width: 500px;
+    height: 400px;
+  }
+  nav .container {
+    font-size: calc(0.5rem + 1vw);
+  }
+
+  .Homepage a {
+    font-size: calc(1.3rem + 1vw);
+  }
+
+  .profilepic {
+    width: 250px;
+    height: 250px;
+    transform: scale(1, 1);
+  }
+
+  .Profilename h1 {
+    font-size: calc(2rem + 1vw);
+  }
+
+  .Profilename h2 {
+    font-size: calc(1.5rem + 1vw);
+  }
+
+  .paracontainer::before {
+    top: 15vh;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 3px;
+    height: 60vh;
+  }
+
+  .paracontainer h6 {
+    font-size: calc(2rem + 1vw);
+    padding-bottom: 1rem;
+  }
+
+  .paracontainer p {
+    padding-top: 1.5rem;
+    line-height: 4rem;
+    font-size: calc(0.7rem + 1vw);
+  }
+
+  .expcontent h1 {
+    font-size: calc(2rem + 1vw);
+    padding-bottom: 2rem;
+  }
+
+  .expcontent h2 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    font-weight: 400;
+    padding-left: 2rem;
+  }
+
+  .expcontent2 {
+    padding-top: 5vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .expcontent2 h1 {
+    font-size: calc(2rem + 1vw);
+    padding-bottom: 2rem;
+  }
+
+  .expcontent2 h2 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .top-content h2 {
+    height: 100%;
+    background-color: rgb(221, 221, 221);
+    padding: 0 5rem;
+    color: var(--grey-text);
+    line-height: 60px;
+    font-size: calc(0.7rem + 1vw);
+    white-space: nowrap;
+  }
+
+  label {
+    height: 100%;
+    margin: 0 18px;
+    line-height: 60px;
+    white-space: nowrap;
+    font-size: calc(0.2rem + 1vw);
+  }
+
+  .SamPro {
+    width: 90%;
+    height: 70vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    scrollbar-width: thin;
+    overflow-x: hidden;
+  }
+
+  .pic {
+    width: 200px;
+    height: 200px;
+  }
+
+  .pic video {
+    width: 200px;
+    height: auto;
+  }
+
+  .contactmecontent h1 {
+    font-size: calc(4rem + 1vw);
+  }
+
+  .email {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    font-size: calc(1.5rem + 1vw);
+  }
+
+  .phone {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    font-size: calc(1.5rem + 1vw);
+  }
+
+  .website {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    font-size: calc(1.5rem + 1vw);
+  }
+
+  .contactmecontent {
+    grid-gap: 2rem;
+  }
+
+  .social-links {
+    position: relative;
+    align-items: flex-end;
+    margin: -10vh auto;
+    width: 85vw;
+    height: 20vh;
+    display: flex;
+    grid-gap: 5rem;
+  }
+
+  .social-links::after {
+    content: "";
+    position: absolute;
+    background: rgb(255, 255, 255);
+    width: 20vw;
+    height: 2px;
+    bottom: 8vh;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .introcontent::after {
+    width: 550px;
+    height: 400px;
+  }
+  nav .container {
+    font-size: calc(0.5rem + 1vw);
+  }
+
+  .Homepage a {
+    font-size: calc(1.3rem + 1vw);
+  }
+
+  .animation {
+    height: 90vh;
+    width: 50%;
+    left: 2vw;
+  }
+
+  .man {
+    display: flex;
+    left: 2vw;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    position: relative;
+  }
+
+  .profilepic {
+    width: 300px;
+    height: 300px;
+    transform: scale(1, 1);
+  }
+
+  .Profilename h1 {
+    font-size: calc(2.5rem + 1vw);
+  }
+
+  .Profilename h2 {
+    font-size: calc(2rem + 1vw);
+  }
+
+  .paracontainer h6 {
+    font-size: calc(2.5rem + 1vw);
+    padding-bottom: 1rem;
+  }
+
+  .paracontainer p {
+    padding-top: 1.5rem;
+    line-height: 4.5rem;
+    font-size: calc(0.9rem + 1vw);
+  }
+
+  .expcontent h1 {
+    font-size: calc(2rem + 1vw);
+    padding-bottom: 2rem;
+  }
+
+  .expcontent h2 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    font-weight: 400;
+    padding-left: 2rem;
+  }
+
+  .expcontent2 {
+    padding-top: 5vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .expcontent2 h1 {
+    font-size: calc(2rem + 1vw);
+    padding-bottom: 2rem;
+  }
+
+  .expcontent2 h2 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .top-content h2 {
+    height: 100%;
+    background-color: rgb(221, 221, 221);
+    padding: 0 5rem;
+    color: var(--grey-text);
+    line-height: 60px;
+    font-size: calc(0.7rem + 1vw);
+    white-space: nowrap;
+  }
+
+  label {
+    height: 100%;
+    margin: 0 19px;
+    line-height: 60px;
+    white-space: nowrap;
+    font-size: calc(0.3rem + 1vw);
+  }
+
+  .SamPro {
+    width: 90%;
+    height: 70vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    scrollbar-width: thin;
+    overflow-x: hidden;
+  }
+
+  .pic {
+    width: 220px;
+    height: 220px;
+  }
+
+  .pic video {
+    width: 200px;
+    height: auto;
+  }
+
+  .contactmecontent h1 {
+    font-size: calc(4rem + 1vw);
+  }
+
+  .email {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    font-size: calc(1.5rem + 1vw);
+  }
+
+  .phone {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    font-size: calc(1.5rem + 1vw);
+  }
+
+  .website {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    font-size: calc(1.5rem + 1vw);
+  }
+
+  .contactmecontent {
+    grid-gap: 2rem;
+  }
+
+  .social-links {
+    position: relative;
+    align-items: flex-end;
+    margin: -10vh auto;
+    width: 85vw;
+    height: 20vh;
+    display: flex;
+    grid-gap: 5rem;
+  }
+
+  .social-links::after {
+    content: "";
+    position: absolute;
+    background: rgb(255, 255, 255);
+    width: 20vw;
+    height: 2px;
+    bottom: 8vh;
   }
 }

@@ -292,7 +292,7 @@ nav .container.active {
   letter-spacing: 0.1rem;
   text-align: justify;
   padding-top: unset;
-  line-height: unset;
+  line-height: 2rem;
   font-size: var(--contents);
 }
 
