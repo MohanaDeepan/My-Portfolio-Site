@@ -145,6 +145,7 @@ nav .container ul li.active a {
 section {
   height: 100vh;
   width: 100vw;
+  margin: auto;
   display: flex;
   position: relative;
   scroll-snap-align: start;
@@ -200,8 +201,8 @@ section {
   border-radius: 5rem;
   display: flex;
   right: vw;
-  height: 500px;
-  width: 800px;
+  height: 400px;
+  width: 600px;
   position: absolute;
   backdrop-filter: blur(25px);
   -webkit-backdrop-filter: blur(25px);
@@ -213,11 +214,11 @@ section {
 
 .introcontent h2 {
   font-weight: 400;
-  font-size: var(--header2);
+  font-size: 1.6vw;
 }
 .portfolio {
   font-weight: 500;
-  font-size: 3.5rem;
+  font-size: 2.1vw;
   color: var(--green-text);
   text-decoration: underline;
 }
@@ -225,18 +226,18 @@ section {
 .introcontent h3 {
   margin: 1.5vh 3vw;
   font-weight: 400;
-  font-size: var(--header3);
+  font-size: 1.5vw;
 }
 
 .introcontent h4 {
-  margin: 1vh 8vw;
+  margin: 0 8vw;
   font-weight: 550;
-  font-size: var(--header4);
+  font-size: 4.5vw;
 }
 
 .introcontent h5 {
   font-weight: 550;
-  font-size: var(--header4);
+  font-size: 4.5vw;
   margin: 0 16vw;
 }
 
@@ -367,7 +368,7 @@ h5 span {
 }
 
 .paracontainer h6 {
-  font-size: calc(3rem + 1vw);
+  font-size: 2.5vw;
   font-weight: 400;
   padding-bottom: 2rem;
   justify-content: flex-end;
@@ -379,8 +380,8 @@ h5 span {
   letter-spacing: 0.1rem;
   text-align: justify;
   padding-top: 2rem;
-  line-height: 7rem;
-  font-size: calc(1rem + 1vw);
+  line-height: 3vw;
+  font-size: 1.5vw;
 }
 
 .paracontainer span {
@@ -540,16 +541,16 @@ h5 span {
 
 .expcontent h1 {
   font-family: 400;
-  font-size: calc(3rem + 1vw);
-  padding-bottom: 2rem;
+  font-size: 2.5vw;
+  padding-bottom: 1vw;
   text-decoration: underline;
   color: rgb(214, 218, 3);
   letter-spacing: 0.1rem;
 }
 
 .expcontent h2 {
-  font-size: 3.5rem;
-  padding-bottom: 1rem;
+  font-size: 1.8vw;
+  padding-bottom: 0.5vw;
   font-weight: 400;
   padding-left: 2rem;
 }
@@ -564,16 +565,16 @@ h5 span {
 
 .expcontent2 h1 {
   font-family: 400;
-  font-size: calc(3rem + 1vw);
-  padding-bottom: 2rem;
+  font-size: 2.5vw;
+  padding-bottom: 1vw;
   text-decoration: underline;
   color: rgb(214, 218, 3);
   letter-spacing: 0.1rem;
 }
 
 .expcontent2 h2 {
-  font-size: 3.5rem;
-  padding-bottom: 1rem;
+  font-size: 1.8vw;
+  padding-bottom: 0.5vw;
   font-weight: 400;
   padding-right: 2rem;
 }
@@ -629,7 +630,7 @@ input {
   background-color: rgb(243, 243, 243);
   width: 100%;
   margin: 0 auto 20px auto;
-  height: 70px;
+  height: 3.5vw;
   display: flex;
   align-items: center;
   border-radius: 3px;
@@ -641,18 +642,18 @@ input {
   background-color: rgb(221, 221, 221);
   padding: 0 5rem;
   color: var(--grey-text);
-  line-height: 60px;
-  font-size: calc(1rem + 1vw);
+  line-height: 3.3vw;
+  font-size: 1.5vw;
   white-space: nowrap;
 }
 
 label {
   display: flex;
   height: 100%;
-  margin: 0 22px;
-  line-height: 60px;
+  margin: 0 1.1vw;
+  line-height: 3.3vw;
   white-space: nowrap;
-  font-size: calc(0.5rem + 1vw);
+  font-size: 1.3vw;
   color: gray;
   cursor: pointer;
   transition: color 0.5s;
@@ -913,8 +914,8 @@ label:hover {
 
 @media only screen and (max-width: 1600px) {
   .introcontent::after {
-    width: 500px;
-    height: 400px;
+    width: 38vw;
+    height: 25vw;
   }
   nav .container {
     font-size: calc(0.5rem + 1vw);
@@ -925,17 +926,17 @@ label:hover {
   }
 
   .profilepic {
-    width: 250px;
-    height: 250px;
+    width: 18vw;
+    height: 18vw;
     transform: scale(1, 1);
   }
 
   .Profilename h1 {
-    font-size: calc(2rem + 1vw);
+    font-size: 2.2vw;
   }
 
   .Profilename h2 {
-    font-size: calc(1.5rem + 1vw);
+    font-size: 1.8vw;
   }
 
   .paracontainer::before {
@@ -948,24 +949,24 @@ label:hover {
   }
 
   .paracontainer h6 {
-    font-size: calc(2rem + 1vw);
-    padding-bottom: 1rem;
+    font-size: 2.5vw;
+    padding-bottom: 0vw;
   }
 
   .paracontainer p {
-    padding-top: 1.5rem;
-    line-height: 4rem;
-    font-size: calc(0.7rem + 1vw);
+    padding-top: 1vw;
+    line-height: 3vw;
+    font-size: 1.5vw;
   }
 
   .expcontent h1 {
-    font-size: calc(2rem + 1vw);
-    padding-bottom: 2rem;
+    font-size: 2.5vw;
+    padding-bottom: 1vw;
   }
 
   .expcontent h2 {
-    font-size: 2.5rem;
-    padding-bottom: 1rem;
+    font-size: 1.7vw;
+    padding-bottom: 1vw;
     font-weight: 400;
     padding-left: 2rem;
   }
@@ -979,13 +980,13 @@ label:hover {
   }
 
   .expcontent2 h1 {
-    font-size: calc(2rem + 1vw);
-    padding-bottom: 2rem;
+    font-size: 2.5vw;
+    padding-bottom: 1vw;
   }
 
   .expcontent2 h2 {
-    font-size: 2.5rem;
-    padding-bottom: 1rem;
+    font-size: 1.7vw;
+    padding-bottom: 1vw;
   }
 
   .top-content h2 {
@@ -993,17 +994,17 @@ label:hover {
     background-color: rgb(221, 221, 221);
     padding: 0 5rem;
     color: var(--grey-text);
-    line-height: 60px;
-    font-size: calc(0.7rem + 1vw);
+    line-height: 3.5vw;
+    font-size: 1.5vw;
     white-space: nowrap;
   }
 
   label {
     height: 100%;
-    margin: 0 18px;
-    line-height: 60px;
+    margin: 0 1.2vw;
+    line-height: 3.5vw;
     white-space: nowrap;
-    font-size: calc(0.2rem + 1vw);
+    font-size: 1.23vw;
   }
 
   .SamPro {
@@ -1016,42 +1017,42 @@ label:hover {
   }
 
   .pic {
-    width: 200px;
-    height: 200px;
+    width: 15vw;
+    height: 15vw;
   }
 
   .pic video {
-    width: 200px;
-    height: auto;
+    width: 15vw;
+    height: 15vw;
   }
 
   .contactmecontent h1 {
-    font-size: calc(4rem + 1vw);
+    font-size: 3.5vw;
   }
 
   .email {
     flex-direction: row;
     display: flex;
     align-items: center;
-    font-size: calc(1.5rem + 1vw);
+    font-size: 2vw;
   }
 
   .phone {
     flex-direction: row;
     display: flex;
     align-items: center;
-    font-size: calc(1.5rem + 1vw);
+    font-size: 2vw;
   }
 
   .website {
     flex-direction: row;
     display: flex;
     align-items: center;
-    font-size: calc(1.5rem + 1vw);
+    font-size: 2vw;
   }
 
   .contactmecontent {
-    grid-gap: 2rem;
+    grid-gap: 1vw;
   }
 
   .social-links {
@@ -1070,11 +1071,11 @@ label:hover {
     background: rgb(255, 255, 255);
     width: 20vw;
     height: 2px;
-    bottom: 8vh;
+    bottom: 4.5vw;
   }
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1240px) {
   .introcontent::after {
     width: 500px;
     height: 400px;
@@ -1117,8 +1118,8 @@ label:hover {
 
   .paracontainer p {
     padding-top: 1.5rem;
-    line-height: 4rem;
-    font-size: calc(0.7rem + 1vw);
+    line-height: 3rem;
+    font-size: calc(0.6rem + 1vw);
   }
 
   .expcontent h1 {
@@ -1286,7 +1287,7 @@ label:hover {
 
   .paracontainer p {
     padding-top: 1.5rem;
-    line-height: 4.5rem;
+    line-height: 4rem;
     font-size: calc(0.9rem + 1vw);
   }
 
