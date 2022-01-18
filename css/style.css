@@ -200,8 +200,8 @@ section {
   border-radius: 5rem;
   display: flex;
   right: vw;
-  height: 500px;
-  width: 800px;
+  height: 600px;
+  width: 900px;
   position: absolute;
   backdrop-filter: blur(25px);
   -webkit-backdrop-filter: blur(25px);
@@ -217,7 +217,7 @@ section {
 }
 .portfolio {
   font-weight: 500;
-  font-size: 3.5rem;
+  font-size: 5rem;
   color: var(--green-text);
   text-decoration: underline;
 }
@@ -225,18 +225,18 @@ section {
 .introcontent h3 {
   margin: 1.5vh 3vw;
   font-weight: 400;
-  font-size: var(--header3);
+  font-size: calc(1.3rem + 1vw);
 }
 
 .introcontent h4 {
   margin: 1vh 8vw;
   font-weight: 550;
-  font-size: var(--header4);
+  font-size: calc(7rem + 1vw);
 }
 
 .introcontent h5 {
   font-weight: 550;
-  font-size: var(--header4);
+  font-size: calc(7rem + 1vw);
   margin: 0 16vw;
 }
 
@@ -379,7 +379,7 @@ h5 span {
   letter-spacing: 0.1rem;
   text-align: justify;
   padding-top: 2rem;
-  line-height: 7rem;
+  line-height: 8rem;
   font-size: calc(1rem + 1vw);
 }
 
@@ -540,7 +540,7 @@ h5 span {
 
 .expcontent h1 {
   font-family: 400;
-  font-size: calc(3rem + 1vw);
+  font-size: calc(4rem + 1vw);
   padding-bottom: 2rem;
   text-decoration: underline;
   color: rgb(214, 218, 3);
@@ -548,8 +548,8 @@ h5 span {
 }
 
 .expcontent h2 {
-  font-size: 3.5rem;
-  padding-bottom: 1rem;
+  font-size: 4rem;
+  padding-bottom: 2rem;
   font-weight: 400;
   padding-left: 2rem;
 }
@@ -564,7 +564,7 @@ h5 span {
 
 .expcontent2 h1 {
   font-family: 400;
-  font-size: calc(3rem + 1vw);
+  font-size: calc(4rem + 1vw);
   padding-bottom: 2rem;
   text-decoration: underline;
   color: rgb(214, 218, 3);
@@ -572,8 +572,8 @@ h5 span {
 }
 
 .expcontent2 h2 {
-  font-size: 3.5rem;
-  padding-bottom: 1rem;
+  font-size: 4rem;
+  padding-bottom: 2rem;
   font-weight: 400;
   padding-right: 2rem;
 }
@@ -629,7 +629,7 @@ input {
   background-color: rgb(243, 243, 243);
   width: 100%;
   margin: 0 auto 20px auto;
-  height: 70px;
+  height: 90px;
   display: flex;
   align-items: center;
   border-radius: 3px;
@@ -641,7 +641,7 @@ input {
   background-color: rgb(221, 221, 221);
   padding: 0 5rem;
   color: var(--grey-text);
-  line-height: 60px;
+  line-height: 80px;
   font-size: calc(1rem + 1vw);
   white-space: nowrap;
 }
@@ -649,10 +649,10 @@ input {
 label {
   display: flex;
   height: 100%;
-  margin: 0 22px;
-  line-height: 60px;
+  margin: 0 30px;
+  line-height: 80px;
   white-space: nowrap;
-  font-size: calc(0.5rem + 1vw);
+  font-size: calc(0.8rem + 1vw);
   color: gray;
   cursor: pointer;
   transition: color 0.5s;
@@ -676,8 +676,8 @@ label:hover {
 
 .pic {
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   border-radius: 10px;
   transition: 0.5s;
 }
@@ -841,7 +841,7 @@ label:hover {
 .contactmecontent {
   width: 95vw;
   margin: auto;
-  top: 15vh;
+  top: 10vh;
   height: 50vh;
   color: var(--white-text);
   position: relative;
@@ -1117,7 +1117,7 @@ label:hover {
 
   .paracontainer p {
     padding-top: 1.5rem;
-    line-height: 4rem;
+    line-height: 3.5rem;
     font-size: calc(0.7rem + 1vw);
   }
 
